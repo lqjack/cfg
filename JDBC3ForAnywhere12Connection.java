@@ -1,4 +1,11 @@
 // Example Java Program - Sybase SQL Anywhere 12 Database Connectivity with JDBC 3.0
+
+/**
+ * 
+ * Java Program to Connect to Sybase SQL Anywhere 12 Using JDBC 3.0 Driver
+*If you want to connect to Sybase SQL Anywhere 12 with JDBC 3.0 driver (sajdbc.jar) use the following code. The only additional item in this program is the loading of driver file. Without the driver configuration, you will encounter the following error,
+*No suitable driver found for jdbc:sqlanywhere
+*/
 import java.sql.*;
 
 public class SybaseExample2 {
